@@ -15,6 +15,7 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
 
     num = 0;
     cur = head;
+    pre = cur;
     while (cur) {
         num++;
         if (num == dpoint) {
